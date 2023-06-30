@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('{any}', function () {
-    return view('/layout/app');
-})->where('any', '.*'); 
+//for testing purpose
+
+// Route::get('{any}', function () {
+//     return view('/layout/app');
+// })->where('any', '.*'); 
